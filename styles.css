@@ -2,11 +2,42 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #D3D3D3;
+}
+
+.title {
+    text-align: center;
+    text-shadow: 3px 5px #333;
+    color: #E63946;
+    font-family: 'Bangers', cursive;
+    font-size: 64px;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+.subtext {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.containerButtons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#gridSize,
+.confirmSizeBtn {
+    
+}
+
 .sketch-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh
+    min-height: 100vh;
+    margin-top: 50px;
 }
 
 .cell-container {
@@ -15,12 +46,9 @@
     justify-content: center;
     max-height: 454px;
     max-width: 454px;
-    border: 2px solid black;
     align-items: center;
 }
 
-.cell {
-    border: 2px solid blue;
-    height: 50px;
-    width: 50px;
+.has-border {
+    border: 2px solid black;
 }
