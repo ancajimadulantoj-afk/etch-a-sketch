@@ -64,6 +64,10 @@ body {
     border: 2px solid black;
 }
 
+.cell-bordered {
+    border: 1px solid black;
+}
+
 .btn1,
 .btn2,
 .btn3,
