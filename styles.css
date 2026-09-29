@@ -14,6 +14,11 @@ body {
     font-size: 64px;
     letter-spacing: 2px;
     margin: 15px;
+    transition: transform 0.3s ease;
+}
+
+.title:hover {
+    transform: scale(1.2);
 }
 
 .subtext {
@@ -78,8 +83,17 @@ body {
     border: 1px solid black;
     background-color: #D3D3D3;
     text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover {
+    transform: scale(1.3);
+    box-shadow: 0 0 8px #FFA500;
+    text-shadow: 0 0 1px #FFA500;
+}
 .btns-left,
 .btns-right {
     display: flex;

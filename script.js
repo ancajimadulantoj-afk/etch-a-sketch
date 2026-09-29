@@ -74,6 +74,7 @@ function btn() {
     btn1.textContent = "Shadow"
     btn1.addEventListener("click", () => {
         shadowMode = !shadowMode
+        btn1.textContent = shadowMode ? "Random Mode" : "Shadow Mode"
     })
 
     let btn2 = document.createElement("button")
@@ -82,7 +83,7 @@ function btn() {
     btn2.textContent = "Draw mode"
     btn2.addEventListener("click", () => {
         clickMode = !clickMode
-        btn2.textContent = clickMode ? "Modo: Lapiz" : "Modo: Libre"
+        btn2.textContent = clickMode ? "Pen Mode" : "Free Mode"
     })
 
     let btn3 = document.createElement("button")
